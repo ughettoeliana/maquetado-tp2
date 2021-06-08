@@ -1,0 +1,97 @@
+body {
+  margin: 0px 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.navbar {
+  position: absolute;
+  top: 354;
+  width: 100vw;
+  background-color: #afd2d2;
+  padding: 3px 125px;
+  z-index: 1;
+}
+
+.navbar .navbar-item {
+  display: inline;
+  padding: 0 20px;
+}
+
+.navbar .navbar-item:first-child {
+  padding-left: 0;
+}
+
+.navbar .navbar-item a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+}
+
+.navbar .navbar-item a:hover {
+  cursor: pointer;
+  color: #303030;
+}
+header {
+  background-image: url("../assets/buenos\ aires\ citypng.png");
+  background-size: cover;
+  background-position: center 35%;
+  height: 400px;
+  position: relative;
+  width: 100vw;
+  margin-right: -64px;
+}
+
+#float-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.turquoise-box {
+  background-color: #007373;
+  margin: 0px 30px;
+  padding: 0px 15px;
+  opacity: 87%;
+  border-radius: 15px;
+}
+
+#art-background {
+  width: 100vw;
+  padding: 120px 0px;
+  background-image: url("../Assets/imagen-arte.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.texto-principal {
+  text-align: center;
+}
+
+.white-background {
+  background-color: #ffffff;
+  opacity: 85%;
+  margin: 25px 70px;
+  padding: 50px 35px;
+}
+div > h2 {
+  padding-bottom: 45px;
+  background-image: url("../Assets/—Pngtree—location\ glyph\ black\ icon_4750192.png");
+}
+
+div p:nth-of-type(2) {
+  text-align: left;
+  margin: 30px 10px 10px;
+}
+
+
+.carrusel-section {
+  margin: 0 -64px;
+  background-color: #eff2f3;
+}
