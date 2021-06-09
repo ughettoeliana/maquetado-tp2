@@ -1,21 +1,33 @@
 body {
-  margin: 0px 10px;
+  margin: 0;
+  padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
   font-size: 18px;
+  width: auto;
 }
-
+/* Header styles */
 h1 {
   text-align: center;
 }
 
+.header {
+  background-image: url("../assets/header-bg.png");
+  background-size: cover;
+  background-position: center 25%;
+  height: 400px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .navbar {
-  position: absolute;
-  top: 354;
   width: 100vw;
   background-color: #afd2d2;
-  padding: 3px 125px;
-  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar .navbar-item {
@@ -28,6 +40,7 @@ h1 {
 }
 
 .navbar .navbar-item a {
+  padding-right: 80px;
   text-decoration: none;
   font-size: 20px;
   color: #000000;
@@ -35,63 +48,127 @@ h1 {
 
 .navbar .navbar-item a:hover {
   cursor: pointer;
-  color: #303030;
-}
-header {
-  background-image: url("../assets/buenos\ aires\ citypng.png");
-  background-size: cover;
-  background-position: center 35%;
-  height: 400px;
-  position: relative;
-  width: 100vw;
-  margin-right: -64px;
-}
-
-#float-center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  color: #464646;
 }
 
 .turquoise-box {
-  background-color: #007373;
+  background-color: rgba(0, 115, 115, 0.7);
   margin: 0px 30px;
   padding: 0px 15px;
-  opacity: 87%;
   border-radius: 15px;
 }
+/*Short Info styles */
 
-#art-background {
+.art-background {
   width: 100vw;
-  padding: 120px 0px;
-  background-image: url("../Assets/imagen-arte.png");
+  padding: 170px 0px;
+  background-image: url("../assets/city-discripction-bg.png");
   background-size: cover;
   background-position: center;
 }
 
-.texto-principal {
+.primary-text {
   text-align: center;
 }
 
 .white-background {
-  background-color: #ffffff;
-  opacity: 85%;
-  margin: 25px 70px;
-  padding: 50px 35px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 20px 150px;
+  padding: 70px 70px 130px;
 }
-div > h2 {
-  padding-bottom: 45px;
-  background-image: url("../Assets/—Pngtree—location\ glyph\ black\ icon_4750192.png");
+
+.white-background > h2 {
+  padding-bottom: 40px;
+  background-image: url("../assets/location-icon_.png");
+  background-size: 35px;
+  background-repeat: no-repeat;
+  background-position: 27% 10%;
+}
+
+.white-background p:nth-of-type(1) {
+  margin: 0 70px 0 50px;
+  padding: 0px 220px 0px 0px;
+  text-align: left;
 }
 
 div p:nth-of-type(2) {
   text-align: left;
-  margin: 30px 10px 10px;
+  margin: 40px 90px 0px;
+  padding: 0 200px 0 90;
 }
 
+.tango-img {
+  float: right;
+  margin: -400px 30px;
+}
+
+/*Carrusel styles*/
+
+.monument-section > h2 {
+  text-align: center;
+  background-color: rgba(48, 48, 48, 0.9);
+  color: #ffffff;
+  margin: -29px 550px;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.short-city-info {
+  text-align:left;
+  margin: 80px 50px;
+  padding: 0 200px;
+}
 
 .carrusel-section {
-  margin: 0 -64px;
-  background-color: #eff2f3;
+  background-color: #ecf0f1;
+  background-image: url("../assets/argentina-postal-service.png");
+  background-repeat: no-repeat;
+  background-position: 70% 45%;
+}
+
+.carrusel-img {
+margin: 50px 180px;
+padding: 10px 0px;
+}
+
+.monument-short-info {
+  text-align: left;
+  margin: -500px 100px 0px 800px;
+}
+
+.links {
+  color: #026161;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 75px;
+}
+
+/* Footer styles*/
+
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: rgba(1, 73, 73);
+  color: #f3f3f3;
+}
+.my-info-section {
+  margin: 250px 100px 0px;
+  padding: 50px 0;
+}
+
+.my-info-section ul {
+  margin: 0px;
+}
+
+.subject-info-section ul {
+  margin: 0px;
+  padding-bottom: 25px;
+}
+
+.subject-info-section {
+  margin: -175px 550px 0px;
+}
+
+.footer-list {
+  list-style: none;
 }
